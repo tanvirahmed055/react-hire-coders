@@ -32,7 +32,7 @@ const Experts = () => {
                         </div>
                     </div>
                     <div className="col-md-3 col-lg-3 col-sm-5 cart-main">
-                        <Cart></Cart>
+                        <Cart cart={cart}></Cart>
                     </div>
                 </div>
             </div>
