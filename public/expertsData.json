@@ -1,0 +1,74 @@
+[
+    {
+        "name": "David Heinemeier Hansson",
+        "skill": "Ruby on Rails",
+        "industryExperience": 20,
+        "location": "Denmark",
+        "fee": 150000,
+        "img": "https://cacm.acm.org/system/assets/0000/1752/103009_CIO_David_Heinemeier_Hansson.large.jpg?1476779418&1256927985"
+    },
+    {
+        "name": "Ryan Dahl",
+        "skill": "Node.js",
+        "industryExperience": 15,
+        "location": "USA",
+        "Fee": 350000,
+        "img": "https://nodejsblog.com/wp-content/uploads/2015/05/ryan_dahl.jpg"
+    },
+    {
+        "name": "Guido van Rossum",
+        "skill": "Python",
+        "industryExperience": 30,
+        "location": "Netherland",
+        "Fee": 550000,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Guido-portrait-2014-drc.jpg"
+    },
+    {
+        "name": "Rasmus Lerdorf",
+        "skill": "PHP",
+        "industryExperience": 25,
+        "location": "Denmark",
+        "Fee": 55000,
+        "img": "https://miro.medium.com/max/300/0*O8KZUqR6EZ8ATHTj.jpg"
+    },
+    {
+        "name": "Larry Wall",
+        "skill": "Perl",
+        "industryExperience": 38,
+        "location": "USA",
+        "Fee": 50000,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Larry_Wall_YAPC_2007.jpg/220px-Larry_Wall_YAPC_2007.jpg,m"
+    },
+    {
+        "name": "James Gosling",
+        "skill": "Java",
+        "industryExperience": 36,
+        "location": "Canada",
+        "Fee": 250000,
+        "img": "https://venturebeat.com/wp-content/uploads/2011/08/james-gosling.jpg?resize=400%2C273&strip=all"
+    },
+    {
+        "name": "Brendan Eich",
+        "skill": "JavaScript",
+        "industryExperience": 25,
+        "location": "USA",
+        "Fee": 90000,
+        "img": "https://unchainedpodcast.com/wp-content/uploads/2020/01/Brendan-Eich.jpg"
+    },
+    {
+        "name": "Anders Hejlsberg",
+        "skill": "C#",
+        "industryExperience": 21,
+        "location": "Denmark",
+        "Fee": 110000,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Anders_Hejlsberg_at_PDC2008.jpg/200px-Anders_Hejlsberg_at_PDC2008.jpg"
+    },
+    {
+        "name": "Graydon Hoare",
+        "skill": "Rust ",
+        "industryExperience": 11,
+        "location": "USA",
+        "Fee": 170000,
+        "img": "https://everipedia-storage.s3.amazonaws.com/ProfilePicture/en/graydon-hoare__3f5731_medium.webp"
+    }
+]
