@@ -18,7 +18,12 @@ const Expert = (props) => {
                     <p className="fw-bold text-center fw-bolder">fee:  <span className="fw-normal">${fee}</span></p>
                 </div>
                 <div className="d-grid gap-2 col-8 mx-auto">
-                    <button className="btn btn-success" type="button"><i class="fas fa-shopping-cart"></i> Add To Cart</button>
+                    <button className="btn btn-success" type="button"><i className="fas fa-shopping-cart"></i> Add To Cart</button>
+                </div>
+                <div className=" mx-auto mt-3">
+                    <i className="fab fa-facebook-square fa-2x icon"></i>
+                    <i className="fab fa-linkedin fa-2x icon"></i>
+                    <i className="fab fa-twitter-square fa-2x icon"></i>
                 </div>
 
             </div>

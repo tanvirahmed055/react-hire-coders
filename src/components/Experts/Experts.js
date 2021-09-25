@@ -16,7 +16,7 @@ const Experts = () => {
                     <div className="col-md-9 col-lg-9 col-sm-7 mb-5">
                         <div className="row">
                             {
-                                experts.map(expert => <Expert expert={expert}></Expert>)
+                                experts.map(expert => <Expert key={expert.name} expert={expert}></Expert>)
                             }
                         </div>
                     </div>

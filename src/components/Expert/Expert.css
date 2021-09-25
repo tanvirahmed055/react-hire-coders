@@ -3,3 +3,7 @@ img{
     height: 150px;
     mix-blend-mode: multiply;
 }
+
+.icon{
+    margin-right: 5px;
+}
