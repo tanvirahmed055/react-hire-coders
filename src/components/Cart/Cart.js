@@ -1,4 +1,5 @@
 import React from 'react';
+import './Cart.css'
 
 
 const Cart = (props) => {
@@ -13,9 +14,9 @@ const Cart = (props) => {
     const total = cart.reduce((previous, current) => previous + current.fee, 0);
 
     return (
-        <div>
-            <h4><i className="fas fa-user-check"></i>Experts Added: {props.cart.length}</h4>
-            <h3>Total Fee: $ {total} </h3>
+        <div className="cart-items">
+            <h4 className="cart-text"><i className="fas fa-user-check"></i>Experts Added: <span className="amount">{props.cart.length}</span></h4>
+            <h3 className="cart-text">Total Fee: <span className="amount">$ {total}</span> </h3>
             {
                 cart.map(expert => <li>{expert.name}</li>)
             }
