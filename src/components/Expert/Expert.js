@@ -6,7 +6,7 @@ const Expert = (props) => {
 
     return (
         <div className="col-md-4 mb-5">
-            <div className="card h-100 shadow rounded p-3">
+            <div className="single-expert card h-100 shadow rounded p-3">
                 <div>
                     <img src={img} className="card-img-top product-image" alt="..." />
                 </div>
