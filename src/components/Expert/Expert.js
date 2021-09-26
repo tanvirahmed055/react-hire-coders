@@ -23,9 +23,10 @@ const Expert = (props) => {
                     <button className="btn btn-success" type="button" onClick={() => props.handleAddToCart(props.expert)}><i className="fas fa-user-plus"></i> &nbsp;Add To Hire</button>
                 </div>
                 <div className=" mx-auto mt-3 text-secondary">
-                    <i className="fab fa-facebook-square fa-2x icon"></i>
-                    <i className="fab fa-linkedin fa-2x icon"></i>
-                    <i className="fab fa-twitter-square fa-2x icon"></i>
+                    <i className="fab fa-facebook-square fa-2x icon facebook-icon-color"></i>
+                    <i className="fab fa-twitter-square fa-2x icon twitter-icon-color"></i>
+                    <i className="fab fa-linkedin fa-2x icon linkedin-icon-color"></i>
+
                 </div>
             </div>
         </div>
