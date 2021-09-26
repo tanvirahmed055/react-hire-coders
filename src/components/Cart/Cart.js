@@ -17,8 +17,8 @@ const Cart = (props) => {
 
     return (
         <div className="cart-items">
-            <h4 className="cart-text"><i className="fas fa-user-check"></i>Experts Added: <span className="amount">{props.cart.length}</span></h4>
-            <h4 className="cart-text">Total Fee: <span className="amount">$ {total}</span> </h4>
+            <h4 className="cart-text"><i className="fas fa-user-check"></i>Experts Added: <span className="amount text-secondary fw-bolder">{props.cart.length}</span></h4>
+            <h4 className="cart-text">Total Fee: <span className="amount text-secondary fw-bolder">$ {total}</span> </h4>
             {
                 cart.map(expert => <li className="text-success">{expert.name}</li>)
             }
