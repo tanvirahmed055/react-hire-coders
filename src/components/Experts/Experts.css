@@ -1,0 +1,9 @@
+.experts-container{
+    border-right: 1px solid lightgray;
+    margin-right: 5px;
+    margin-left: 2px;
+}
+
+.cart-container{
+    padding-left: 35px;
+}

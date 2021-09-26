@@ -17,7 +17,7 @@ const Expert = (props) => {
                     <p className="card-text text-dark text-center fw-bolder">From: <span className="fw-normal">{location}</span></p>
                     <p className="fw-bold text-center fw-bolder">Fee Per Month:  <span className="fw-normal">${fee}</span></p>
                 </div>
-                <div className="d-grid gap-2 col-8 mx-auto">
+                <div className="d-grid gap-2 col-9 mx-auto">
                     <button className="btn btn-success" type="button" onClick={() => props.handleAddToCart(props.expert)}><i className="fas fa-shopping-cart"></i> Add To Cart</button>
                 </div>
                 <div className=" mx-auto mt-3">
