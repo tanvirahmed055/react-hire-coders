@@ -19,6 +19,7 @@ const Experts = () => {
 
     //handle click event and set to a state
     const handleAddToCart = (expert) => {
+        //checking if the person is already added or not
         const alreadyAddedCheck = cart.find(person => person.name === expert.name);
         if (alreadyAddedCheck === undefined) {
             const newCart = [...cart, expert];
