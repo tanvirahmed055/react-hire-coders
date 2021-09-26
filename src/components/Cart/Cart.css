@@ -1,24 +1,14 @@
 /* Carts Component Styles */
 
-.cart-items{
-  
-  
-}
 .cart-text{
   color: #000033;
 }
 
-
 .amount {
-    /* color: #cd594a; */
     color: #003366;
 }
 
 li{
-  /* color: #333300; */
-  /* color: #101820FF; */
   margin-bottom: 5px;
-
-  /* color: #616247FF; */
   color: #333D79FF;
 }

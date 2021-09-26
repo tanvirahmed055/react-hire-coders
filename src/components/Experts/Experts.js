@@ -39,7 +39,7 @@ const Experts = () => {
                         </div>
                     </div>
                     <div className="col-md-3 col-lg-3 col-sm-5 cart-container">
-                        <Cart cart={cart}></Cart>
+                        <Cart key={cart.name} cart={cart}></Cart>
                     </div>
                 </div>
             </div>
