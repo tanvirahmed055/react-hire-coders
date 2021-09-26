@@ -2,6 +2,8 @@ import React from 'react';
 import './Expert.css'
 
 const Expert = (props) => {
+
+    // object destructuring
     const { name, skill, experience, location, fee, img } = props.expert || {};
 
     return (

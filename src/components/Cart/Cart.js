@@ -4,11 +4,13 @@ import './Cart.css'
 
 const Cart = (props) => {
 
-    console.log(props);
+    // console.log(props);
+
+    //cart destructuring
     const { cart } = props || {};
 
 
-    console.log(cart);
+    // console.log(cart);
 
 
     const total = cart.reduce((previous, current) => previous + current.fee, 0);
@@ -18,7 +20,7 @@ const Cart = (props) => {
             <h4 className="cart-text"><i className="fas fa-user-check"></i>Experts Added: <span className="amount">{props.cart.length}</span></h4>
             <h4 className="cart-text">Total Fee: <span className="amount">$ {total}</span> </h4>
             {
-                cart.map(expert => <li>{expert.name}</li>)
+                cart.map(expert => <li className="text-success">{expert.name}</li>)
             }
         </div>
     );

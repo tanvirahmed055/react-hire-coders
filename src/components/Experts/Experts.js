@@ -4,19 +4,20 @@ import Expert from '../Expert/Expert';
 import './Experts.css'
 
 const Experts = () => {
+    //state for rendering experts on the UI
     const [experts, setExperts] = useState([]);
+    //state for rendering selected experts and calculation on the UI
     const [cart, setCart] = useState([]);
 
+    //fetch json data and setting it to a state
     useEffect(() => {
         fetch('./expertsData.json')
             .then(res => res.json())
             .then(data => setExperts(data));
     }, []);
 
-    useEffect(() => {
 
-    }, []);
-
+    //handle click event and set to a state
     const handleAddToCart = (expert) => {
         const newCart = [...cart, expert];
         setCart(newCart);
