@@ -17,10 +17,12 @@ const Cart = (props) => {
 
     return (
         <div className="cart-items">
-            <h4 className="cart-text"><i className="fas fa-user-check"></i>Experts Added: <span className="amount text-secondary fw-bolder">{props.cart.length}</span></h4>
-            <h4 className="cart-text">Total Fee: <span className="amount text-secondary fw-bolder">$ {total}</span> </h4>
+            <h4 className="cart-text"><i className="fas fa-user-check"></i>&nbsp;Experts Added: <span className="amount fw-bolder">{props.cart.length}</span></h4>
+            <br />
+            <h4 className="cart-text"><i class="fas fa-coins"></i>&nbsp;Cost: <span className="amount fw-bolder">$ {total}</span> </h4>
+            <br />
             {
-                cart.map(expert => <li className="text-success">{expert.name}</li>)
+                cart.map(expert => <li className=""><i class="far fa-check-circle"></i>&nbsp;&nbsp;{expert.name} added!</li>)
             }
         </div>
     );
